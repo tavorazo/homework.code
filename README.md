@@ -31,7 +31,7 @@ Se le asignará tu proyecto a uno o más desarrolladores del equipo. Todo el tie
 
 Se te enviara un comprimido con instrucciones que se proporcionaron en un principio, el paquete de códigos con comentarios explicando los bloques de código. Si existe alguna duda se dará un plazo para resolverla.
 
-## Desarrolladores.
+## Desarrolladores. 
 
 V. Octavio Razo Verduzco
 
