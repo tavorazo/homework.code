@@ -3994,7 +3994,8 @@
 		}
 
 	@media screen and (max-width: 480px) and (orientation: landscape) {
-
+		#header input {width: 100%}
+		
 		#header {
 			padding: 2em 1.5em 0.1em 1.5em ;
 		}
