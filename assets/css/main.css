@@ -3997,7 +3997,7 @@
 		}
 
 	@media screen and (max-width: 480px) and (orientation: landscape) {
-		#header input {width: 100%}
+		#header input {width: 100%; font-size: 0.7em}
 		
 		#header {
 			padding: 2em 1.5em 0.1em 1.5em ;
@@ -4014,7 +4014,7 @@
 	}
 
 	@media screen and (max-width: 480px) and (orientation: portrait) {
-
+		#header input {width: 100%; font-size: 0.7em}
 		#header {
 			padding: 2em 1em 0.1em 1em ;
 		}
