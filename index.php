@@ -15,8 +15,6 @@
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 		<style>
 				code{ margin-top: 40px }
-
-				#header input{ background: none; color: #d0e4f8; width:400px; font-size:24px; outline:0px; border: 0; text-align: right; }
 		</style>
 
 		<script LANGUAGE="JavaScript"> 
