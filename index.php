@@ -3,6 +3,7 @@
 	Fractal by HTML5 UP
 	html5up.net | @n33co
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+	Modifiqued by @TavoRazo
 -->
 <html>
 	<head>
@@ -251,17 +252,17 @@ public class HolaMundo {
 							<h2>¿ Qué quieres hacer ?</h2>
 						</header>
 
-						<form method="post" action="#">
+						<form method="post" action="send.php">
 							<div class="row uniform">
 								<div class="6u 12u$(xsmall)">
-									<input type="text" name="demo-name" id="demo-name" value="" placeholder="Nombre completo" />
+									<input type="text" name="name" id="demo-name" value="" placeholder="Nombre completo" />
 								</div>
 								<div class="6u$ 12u$(xsmall)">
-									<input type="email" name="demo-email" id="demo-email" value="" placeholder="Email" />
+									<input type="email" name="email" id="demo-email" value="" placeholder="Email" />
 								</div>
 								<div class="12u$">
 									<div class="select-wrapper">
-										<select name="demo-category" id="demo-category">
+										<select name="lang" id="demo-category">
 											<option value="">- Lenguaje -</option>
 											<option value="1">C</option>
 											<option value="2">Java</option>
@@ -282,15 +283,15 @@ public class HolaMundo {
 									</div>
 								</div>
 								<div class="4u 12u$(small)">
-									<input type="radio" id="demo-priority-low" name="demo-priority" checked>
+									<input type="radio" id="demo-priority-low" name="level" checked>
 									<label for="demo-priority-low">Básico/Principiante</label>
 								</div>
 								<div class="4u 12u$(small)">
-									<input type="radio" id="demo-priority-normal" name="demo-priority">
+									<input type="radio" id="demo-priority-normal" name="level">
 									<label for="demo-priority-normal">Intermedio</label>
 								</div>
 								<div class="4u$ 12u$(small)">
-									<input type="radio" id="demo-priority-high" name="demo-priority">
+									<input type="radio" id="demo-priority-high" name="level">
 									<label for="demo-priority-high">Master</label>
 								</div>
 
@@ -303,7 +304,7 @@ public class HolaMundo {
 									<label for="demo-human">Not a robot</label>
 								</div>
 								<div class="12u$">
-									<textarea name="demo-message" id="demo-message" placeholder="Describe tu programa" rows="6"></textarea>
+									<textarea name="mail" id="demo-message" placeholder="Describe tu programa" rows="6"></textarea>
 								</div>
 								<div class="12u$">
 									<ul class="actions">
