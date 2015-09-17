@@ -304,7 +304,7 @@ public class HolaMundo {
 									<label for="demo-human">Not a robot</label>
 								</div>
 								<div class="12u$">
-									<textarea name="mail" id="demo-message" placeholder="Describe tu programa" rows="6"></textarea>
+									<textarea name="msj" id="demo-message" placeholder="Describe tu programa" rows="6"></textarea>
 								</div>
 								<div class="12u$">
 									<ul class="actions">

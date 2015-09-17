@@ -5,7 +5,7 @@ $nombre = $_POST['name'] ;
 $asunto = $_POST['asunto'] ;
 $lenguaje = $_POST['lan'];
 $nivel = $_POST['level'];
-$mensaje = $_POST['mail'];
+$mensaje = $_POST['msj'];
 
 
 $mensaje = "Mensaje de:". $nombre. "<br><br>". $lenguaje. " ".$nivel."<br><br>". $mensaje;
