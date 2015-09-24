@@ -1,5 +1,7 @@
 
 <?php
+extract($_POST);
+
 $nombre = $_POST['name'] ;
 $remitente = $_POST['mail'] ;
 $asunto = $_POST['asunto'] ;
@@ -8,7 +10,6 @@ $nivel = $_POST['level'];
 $mensaje = $_POST['msj'];
 
 
-extract($_POST);
 
 //set POST variables
 $url = 'https://api.mailgun.net/v3/sandboxc9c4b7ab94f84710adb8e847cff7ac43.mailgun.org/messages';
@@ -19,6 +20,7 @@ $fields = array(
     	 			'text'		=> urlencode('Lenguaje :' .$lenguaje."\nNivel : ".$nivel. "\n Desarrollo:" . $mensaje )
 				);
 
+echo $fields;
 //url-ify the data for the POST
 foreach($fields as $key=>$value) { $fields_string .= $key.'='.$value.'&'; }
 rtrim($fields_string, '&');
@@ -35,7 +37,8 @@ curl_setopt($ch,CURLOPT_POSTFIELDS, $fields_string);
 //execute post
 $result = curl_exec($ch);
 
-header('Location: index.html');
+echo $result;
+//header('Location: index.html');
 
 //close connection
 curl_close($ch);
