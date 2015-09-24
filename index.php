@@ -252,7 +252,7 @@ public class HolaMundo {
 							<h2>¿ Qué quieres hacer ?</h2>
 						</header>
 
-						<form method="post" action="send.php">
+						<form  action="send.php" method="POST">
 							<div class="row uniform">
 								<div class="6u 12u$(xsmall)">
 									<input type="text" name="name" id="demo-name" value="" placeholder="Nombre completo" />
