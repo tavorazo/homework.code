@@ -14,10 +14,10 @@ $mensaje = $_POST['msj'];
 //set POST variables
 $url = 'https://api.mailgun.net/v3/sandboxc9c4b7ab94f84710adb8e847cff7ac43.mailgun.org/messages';
 $fields = array(
-					'from'		=> urlencode($name.' / '.$remitente),
+					'from'		=> urlencode($remitente),
     	 			'to' 		=> urlencode('octavio.razo.verduzco@gmail.com' ),
    		 			'subject'	=> urlencode($asunto),
-    	 			'text'		=> urlencode('Lenguaje :' .$lenguaje."\nNivel : ".$nivel. "\n Desarrollo:" . $mensaje )
+    	 			'text'		=> urlencode("Nombre:" .$name ."Lenguaje :" .$lenguaje."\nNivel : ".$nivel. "\n Desarrollo:" . $mensaje )
 				);
 
 echo $fields;
