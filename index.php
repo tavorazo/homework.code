@@ -23,6 +23,7 @@
 	var Retardo; 
 	var Fin; 
 	var Mensaje; 
+	$id.("#contacto").reset();
 	function TipeodeMaquina(NuevoRetardo) { 
 		Retardo = NuevoRetardo; 
 		if (posicion1 > Mensaje.length) { 
@@ -232,7 +233,7 @@ TipeodeMaquina(150);" onUnload="clearTimeout(Fin)">
 			<header class="major">
 				<h2>¿ Qué quieres hacer ?</h2>
 			</header>
-			<form  action="send.php" method="POST" enctype="multipart/form-data">
+			<form  action="send.php" method="POST" enctype="multipart/form-data" id="contacto">
 				<div class="row uniform">
 					<div class="6u 12u$(xsmall)">
 						<input type="text" name="name" id="demo-name" value="" placeholder="Nombre completo" required="required"/>
