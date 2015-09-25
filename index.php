@@ -23,7 +23,6 @@
 	var Retardo; 
 	var Fin; 
 	var Mensaje; 
-	$id.("#contacto").reset();
 	function TipeodeMaquina(NuevoRetardo) { 
 		Retardo = NuevoRetardo; 
 		if (posicion1 > Mensaje.length) { 
@@ -44,17 +43,16 @@
 	} 
 	</script> 
 </head>
-<body id="top" onLoad="Mensaje='        ¿No le entiendes a ese lenguaje?   .... ¿No tienes tiempo para desarrollarlo?     ....     O quizá ¿te vas de fiesta este fin?    '; 
+<body id="top" onLoad="Mensaje='       ¿Necesitas apoyo en tu proyecto?   ....    ¿Estas en busca de un Freelancer?   .... ¿No tienes tiempo para desarrollarlo?     ....              Puedes irte de fiesta este fin!!  '; 
 TipeodeMaquina(150);" onUnload="clearTimeout(Fin)">
 <!-- Header -->
 <header id="header">
 	<div class="content">
 		<h1><a href="#">HomeworkCode</a></h1>
-		<FORM NAME="MiFormulario"> 
+		<form NAME="MiFormulario"> 
 			<input name="caja" ></input> 
-		</FORM>
-		<p>No te preocupes, nosotros lo 
-			<a href="http://html5up.net">hacemos</a> por tí</p>
+		</form>
+		<p>Somos la mano derecha de los <a href="http://html5up.net">desarrolladores </a> </p>
 			<ul class="actions">
 				<li><a href="#escribenos" class="button special icon scrolly">Escribenos</a></li>
 				<li><a href="#two" class="button icon fa-chevron-down scrolly">Saber más</a></li>
@@ -79,23 +77,15 @@ TipeodeMaquina(150);" onUnload="clearTimeout(Fin)">
 							<h2>Codeamos</h2>
 						</header>
 						<code>
-							C,
-							Java,
-							JS,
-							HTML,
-							CSS,
-							Ruby,
-							Python,
+							C, C*++, 
+							Java, JS,
+							HTML, CSS,
+							Ruby, Python,
 							Go,
 							PHP,
-							Mysql,
-							MongoDB,
-							Oracle,
-							Linux,
-							Mac iOS,
-							Android,
-							Windows,
-							.net
+							Mysql, MongoDB, Oracle,
+							Linux, Mac iOS, Android,
+							.net, muchos más...
 						</code> 
 						<br><br>
 					</section>
@@ -109,7 +99,7 @@ TipeodeMaquina(150);" onUnload="clearTimeout(Fin)">
 					</header>
 					<section>
 						<h4>1. Llena nuestro formulario.</h4>
-						<p>Como primer paso tendrás que llenar nuestro <strong><a href="#">formulario</a></strong> para que tengamos hasta el más intimo detalle de lo que quieres hacer. No olvides escribir tus datos reales.</p>
+						<p>Como primer paso tendrás que llenar nuestro <strong><a href="#contacto" class="scrolly">formulario</a></strong> para que tengamos hasta el más intimo detalle de lo que quieres hacer. No olvides escribir tus datos reales.</p>
 						<h4>2. Deposita.</h4>
 						<p>En el preciso momento que nos llegue tu solicitud, nuestro equipo generará una cotización apropiada para tu necesidad definiendo el día de entrega, número de cuenta a depositar y otros datos importantes. Estos datos serán <u>confidenciales</u> y se enviarán a la cuenta que pusiste en el formulario.</p>
 						<h4>3. Nosotros lo hacemos.</h4>
@@ -132,7 +122,7 @@ TipeodeMaquina(150);" onUnload="clearTimeout(Fin)">
 					}
 				}
 			</code></pre>
-			<li><a href="#" class="button special small fit">Quiero que desarrollen algo por mi.</a></li>
+			<li><a href="#contacto" class="button special small fit scrolly">Empecemos a trabajar!</a></li>
 			
 		</section>
 	</div>
@@ -144,7 +134,7 @@ TipeodeMaquina(150);" onUnload="clearTimeout(Fin)">
 		<p>Si quieres ser colaborador de este proyecto, manda tus datos a <strong><a href="http://gmail.com">HomeworkCode@gmail.com</a></strong> 	.</p>
 	</header>
 	<ul class="actions">
-		<li><a href="#" class="button">Contactar</a></li>
+		<li><a href="http://www.gmail.com" class="button">Contactar</a></li>
 	</ul>
 </section>
 <section id="four" class="wrapper">
@@ -154,17 +144,17 @@ TipeodeMaquina(150);" onUnload="clearTimeout(Fin)">
 			
 			<div class="row">
 				<div class="6u 12u$(medium)">
-					<h3>Detalles por los que no lo haces.</h3>
+					<h3>¿Cuando ocupas ayuda?</h3>
 					<ul class="alt">
-						<li><img src="https://cdn2.iconfinder.com/data/icons/flat-icons-web/40/Checked-24.png" alt="" style="padding-right:10px">No le entendí al tema.</li>
-						<li><img src="https://cdn2.iconfinder.com/data/icons/flat-icons-web/40/Checked-24.png" alt="" style="padding-right:10px">No tengo tiempo.</li>
-						<li><img src="https://cdn2.iconfinder.com/data/icons/flat-icons-web/40/Checked-24.png" alt="" style="padding-right:10px">No quiero hacerlo.</li>
+						<li><img src="https://cdn2.iconfinder.com/data/icons/flat-icons-web/40/Checked-24.png" alt="" style="padding-right:10px">Cuando ocupas incluir códigos que desconoces.</li>
+						<li><img src="https://cdn2.iconfinder.com/data/icons/flat-icons-web/40/Checked-24.png" alt="" style="padding-right:10px">Cuando el tiempo no te alcanza.</li>
+						<li><img src="https://cdn2.iconfinder.com/data/icons/flat-icons-web/40/Checked-24.png" alt="" style="padding-right:10px">Cuando tienes más trabajo de lo que esperabas.</li>
 					</ul>
 					<h3>Contactanos</h3>
 					<ul class="icons">
 						<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
 						<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-						<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+						<!--li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li-->
 						<li><a href="#" class="icon fa-github"><span class="label">Github</span></a></li>
 					</ul>
 				</div>
@@ -180,13 +170,13 @@ TipeodeMaquina(150);" onUnload="clearTimeout(Fin)">
 						<li>Escribenos tu problema.</li>
 						<li>Relajate.</li>
 						<li>Te entregamos tu código.</li>
-						<li>Tienes un 100 en la escuela o un cliente féliz.</li>
+						<li>Tienes un cliente féliz  o un 100 en la escuela.</li>
 						<li>Vuelves a pedirnos ayuda.</li>
 					</ol>
 				</div>
 			</div>
 			<h3>Nuestro lema</h3>
-			<blockquote style="border-color:#4696e5">Muchos estudiantes pasan sus años de estudios estresados, con ansiedad y sufriendo mucho antes, durante e incluso después de los exámenes. Creen que es lo más importante de la vida y se les olvidan que hay cosas mucho más importantes. <strong style="text-aling:left">Anónimo</strong></blockquote>
+			<blockquote style="border-color:#4696e5">Muchos profesionales y/o estudiantes pasan sus años estresados, con ansiedad y sufriendo mucho antes, durante e incluso después de entregas. Creen que el trabajo es lo más importante de la vida y se les olvidan que hay cosas mucho más importantes. <strong style="text-aling:left">Anónimo</strong></blockquote>
 		</section>
 		<section>
 			<br><br><br>
@@ -302,7 +292,7 @@ TipeodeMaquina(150);" onUnload="clearTimeout(Fin)">
 				<ul class="icons">
 					<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
 					<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-					<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+					<!--li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li-->
 				</ul>
 				<p class="copyright">&copy; HomeworkCode 2015-2016<a href="http://html5up.net">.</a></p>
 			</footer>
