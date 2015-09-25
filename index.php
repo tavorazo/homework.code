@@ -235,14 +235,14 @@ TipeodeMaquina(150);" onUnload="clearTimeout(Fin)">
 			<form  action="send.php" method="POST" enctype="multipart/form-data">
 				<div class="row uniform">
 					<div class="6u 12u$(xsmall)">
-						<input type="text" name="name" id="demo-name" value="" placeholder="Nombre completo" />
+						<input type="text" name="name" id="demo-name" value="" placeholder="Nombre completo" required="required"/>
 					</div>
 					<div class="6u$ 12u$(xsmall)">
-						<input type="email" name="email" id="demo-email" value="" placeholder="Email" />
+						<input type="email" name="email" id="demo-email" value="" placeholder="Email" required="required"/>
 					</div>
 					<div class="12u$">
 						<div class="select-wrapper">
-							<select name="lang" id="demo-category">
+							<select name="lang" id="demo-category" required="required">
 								<option value="">- Lenguaje -</option>
 								<option value="1">C</option>
 								<option value="2">Java</option>
@@ -263,15 +263,15 @@ TipeodeMaquina(150);" onUnload="clearTimeout(Fin)">
 						</div>
 					</div>
 					<div class="4u 12u$(small)">
-						<input type="radio" id="demo-priority-low" name="level" checked>
+						<input type="radio" id="demo-priority-low" name="level" value="Basico" checked>
 						<label for="demo-priority-low">Básico/Principiante</label>
 					</div>
 					<div class="4u 12u$(small)">
-						<input type="radio" id="demo-priority-normal" name="level">
+						<input type="radio" id="demo-priority-normal" name="level" value="Medio">
 						<label for="demo-priority-normal">Intermedio</label>
 					</div>
 					<div class="4u$ 12u$(small)">
-						<input type="radio" id="demo-priority-high" name="level">
+						<input type="radio" id="demo-priority-high" name="level" "Master pro">
 						<label for="demo-priority-high">Master</label>
 					</div>
 								<!--div class="6u 12u$(small)">
@@ -279,11 +279,11 @@ TipeodeMaquina(150);" onUnload="clearTimeout(Fin)">
 									<label for="demo-copy">Email me a copy</label>
 								</div-->
 								<div class="6u$ 12u$(small)">
-									<input type="checkbox" id="demo-human" name="demo-human" checked>
+									<input type="checkbox" id="demo-human" name="demo-human" required="required">
 									<label for="demo-human">Not a robot</label>
 								</div>
 								<div class="12u$">
-									<textarea name="msj" id="demo-message" placeholder="Describe tu programa" rows="6"></textarea>
+									<textarea name="msj" id="demo-message" placeholder="Describe tu programa" rows="6" required="required"></textarea>
 								</div>
 								<div class="12u$">
 									<ul class="actions">

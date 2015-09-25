@@ -18,7 +18,7 @@ $fields = array(
 					'from'		=> urlencode($remitente),
     	 			'to' 		=> urlencode('octavio.razo.verduzco@gmail.com' ),
    		 			'subject'	=> urlencode($asunto),
-    	 			'text'		=> urlencode("Nombre:" .$name ."Lenguaje :" .$lenguaje."\nNivel : ".$nivel. "\n Desarrollo:" . $mensaje )
+    	 			'text'		=> urlencode("Nombre:" .$name ."\nLenguaje :" .$lenguaje."\nNivel : ".$nivel. "\n Desarrollo:" . $mensaje )
 				);
 
 //url-ify the data for the POST
