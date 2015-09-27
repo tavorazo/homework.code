@@ -44,7 +44,7 @@
 	</script> 
 </head>
 <body id="top" onLoad="Mensaje='       ¿Necesitas apoyo en tu proyecto?   ....    ¿Estas en busca de un Freelancer?   .... ¿No tienes tiempo para desarrollarlo?     ....              Puedes irte de fiesta este fin!!  '; 
-TipeodeMaquina(150);" onUnload="clearTimeout(Fin)">
+TipeodeMaquina(120);" onUnload="clearTimeout(Fin)">
 <!-- Header -->
 <header id="header">
 	<div class="content">
@@ -196,22 +196,22 @@ TipeodeMaquina(150);" onUnload="clearTimeout(Fin)">
 						<tr>
 							<td>Básico</td>
 							<td>1 hora</td>
-							<td>5 dlls</td>
+							<td>10 dlls</td>
 						</tr>
 						<tr>
 							<td>Principiante</td>
 							<td>1 hora</td>
-							<td>6 dlls</td>
+							<td>12 dlls</td>
 						</tr>
 						<tr>
 							<td>Intermedio</td>
 							<td>1 hora</td>
-							<td>6.5 dlls</td>
+							<td>15 dlls</td>
 						</tr>
 						<tr>
 							<td>Master</td>
 							<td>1 hora</td>
-							<td>8 dlls</td>
+							<td>A medida</td>
 						</tr>
 						
 					</tbody>
