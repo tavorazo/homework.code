@@ -162,15 +162,15 @@ TipeodeMaquina(150);" onUnload="clearTimeout(Fin)">
 					<h3>Alternativas</h3>
 					<ul class="alt">
 						<li><img src="https://cdn2.iconfinder.com/data/icons/flat-icons-web/40/Remove-20.png" alt="" style="padding-right:10px">No entregarlo.</li>
-						<li><img src="https://cdn2.iconfinder.com/data/icons/flat-icons-web/40/Remove-20.png" alt="" style="padding-right:10px">Finjir y dar un pretexto.</li>
+						<li><img src="https://cdn2.iconfinder.com/data/icons/flat-icons-web/40/Remove-20.png" alt="" style="padding-right:10px">Fingir y dar un pretexto.</li>
 						<li style="color:#4696e5"><img src="https://cdn2.iconfinder.com/data/icons/flat-icons-web/40/OK-20.png" alt="" style="padding-right:10px">Acercarte con <strong>HomeworkCode</strong>.</li>
 					</ul>
 					<h3>Forma de trabajo</h3>
 					<ol>
-						<li>Escribenos tu problema.</li>
+						<li>Escríbenos tu problema.</li>
 						<li>Relajate.</li>
 						<li>Te entregamos tu código.</li>
-						<li>Tienes un cliente féliz  o un 100 en la escuela.</li>
+						<li>Tienes un cliente feliz  o un 100 en la escuela.</li>
 						<li>Vuelves a pedirnos ayuda.</li>
 					</ol>
 				</div>
