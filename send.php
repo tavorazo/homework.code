@@ -16,7 +16,7 @@ $url = 'https://api.mailgun.net/v3/sandboxc9c4b7ab94f84710adb8e847cff7ac43.mailg
 $fields = "";
 $fields = array(
 					'from'		=> urlencode($remitente),
-    	 			'to' 		=> urlencode('octavio.razo.verduzco@gmail.com' ),
+    	 			'to' 		=> urlencode('homework.code.mx@gmail.com' ),
    		 			'subject'	=> urlencode($asunto),
     	 			'text'		=> urlencode("Nombre:" .$name ."\nLenguaje :" .$lenguaje."\nNivel : ".$nivel. "\n Desarrollo:\n\n" . $mensaje ."</p>")
 				);

@@ -131,7 +131,7 @@ TipeodeMaquina(120);" onUnload="clearTimeout(Fin)">
 <section id="three" class="wrapper style2 special">
 	<header class="major">
 		<h2>¿ Quieres colaborar en este proyecto?</h2>
-		<p>Si quieres ser colaborador de este proyecto, manda tus datos a <strong><a href="http://gmail.com">HomeworkCode@gmail.com</a></strong> 	.</p>
+		<p>Si quieres ser colaborador de este proyecto, manda tus datos a <strong><a href="http://gmail.com">Homework.Code.mx@gmail.com</a></strong> 	.</p>
 	</header>
 	<ul class="actions">
 		<li><a href="http://www.gmail.com" class="button">Contactar</a></li>
